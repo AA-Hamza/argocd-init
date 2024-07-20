@@ -19,7 +19,7 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: aahamza/nginx:v44
+          image: aahamza/nginx:v45
           ports:
             - containerPort: 80
       imagePullSecrets:
